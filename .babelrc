@@ -4,6 +4,9 @@
       "ignore": [
         "**/*.test.js"
       ],
+      "plugins": [
+        "babel-plugin-styled-components"
+      ],
       "presets": [
         [
           "env",
@@ -12,13 +15,16 @@
             "modules": false
           }
         ],
-        "flow",
+        "react",
         "stage-3"
       ]
     },
     "commonjs": {
       "ignore": [
         "**/*.test.js"
+      ],
+      "plugins": [
+        "babel-plugin-styled-components"
       ],
       "presets": [
         [
@@ -27,7 +33,7 @@
             "useBuiltIns": false
           }
         ],
-        "flow",
+        "react",
         "stage-3"
       ]
     },
@@ -39,7 +45,7 @@
             "modules": "commonjs"
           }
         ],
-        "flow",
+        "react",
         "stage-3"
       ]
     }
