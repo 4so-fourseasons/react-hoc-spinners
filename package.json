@@ -1,6 +1,6 @@
 {
   "name": "@4so-fourseasons/react-hoc-spinners",
-  "version": "1.0.0-rc-1",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "module": "es/index.js",
   "jsnext:main": "es/index.js",
