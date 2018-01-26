@@ -5,7 +5,7 @@ import { withDocs, withReadme } from 'storybook-readme'
 import README from '../../README.md'
 
 import ComponentREADME from './makeWithLoadingIndicator.README.md'
-import { makeWithLoadingIndicator } from './makeWithLoadingIndicator.jsx'
+import makeWithLoadingIndicator from './makeWithLoadingIndicator.jsx'
 
 const WrappedComponent = (props) => (
   <h1>Wrapped Component</h1>
