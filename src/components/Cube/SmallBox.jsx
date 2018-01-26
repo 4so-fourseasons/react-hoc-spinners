@@ -14,11 +14,11 @@ const SmallBox = styled.div`
   width: ${props => props.size}px;
   height: ${props => props.size}px;
 
-  background-color: ${props => props.dark};
+  background-color: ${props => props.innerColor};
 
   outline: 1px solid transparent;
 
-  animation: smallBoxAnim 1.25s alternate infinite ease-in-out;
+  animation: smallBoxAnim ${props => props.speed}s alternate infinite ease-in-out;
 `
 
 export default SmallBox

@@ -11,7 +11,7 @@ const Loader = styled.div`
   margin: 0 auto;
   width: ${props => props.size}px;
   height: ${props => props.size}px;
-  animation: loaderAnim 1.25s infinite;
+  animation: loaderAnim ${props => props.speed}s infinite;
   outline: 1px solid transparent;
 `
 
