@@ -1,9 +1,12 @@
 [![Build Status](https://travis-ci.org/4so-fourseasons/react-hoc-spinners.svg?branch=master)](https://travis-ci.org/4so-fourseasons/react-hoc-spinners)
 [![Coverage Status](https://coveralls.io/repos/github/4so-fourseasons/react-hoc-spinners/badge.svg?branch=master)](https://coveralls.io/github/4so-fourseasons/react-hoc-spinners?branch=master)
 [![npm version](https://badge.fury.io/js/%404so-fourseasons%2Freact-hoc-spinners.svg)](https://badge.fury.io/js/%404so-fourseasons%2Freact-hoc-spinners)
-[![api docs](https://img.shields.io/badge/docs-API-C8022F.svg)](https://4so-fourseasons.github.io/react-hoc-spinners/)
+[![Maintainability](https://api.codeclimate.com/v1/badges/a7675da10113147e80e7/maintainability)](https://codeclimate.com/github/4so-fourseasons/react-hoc-spinners/maintainability)
 [![JavavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![style: styled-components](https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e)](https://github.com/styled-components/styled-components)
+
+[![Github](https://img.shields.io/badge/GitHub-4so--fourseasons%2Freact--hoc--spinners-blue.svg?style=flat-square)](https://github.com/4so-fourseasons/react-hoc-spinners)
+[![api docs](https://img.shields.io/badge/docs-API-C8022F.svg?style=flat-square)](https://4so-fourseasons.github.io/react-hoc-spinners/)
 
 
 # react-hoc-spinners
