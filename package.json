@@ -46,6 +46,14 @@
       "js",
       "jsx"
     ],
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      ".*\/\\w*.stories.js(x)?$"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      ".*\/\\w*.stories.js(x)?$"
+    ],
     "collectCoverageFrom": [
       "**/src/**/*.{js,jsx}"
     ],
@@ -66,8 +74,7 @@
     "ignore": [
       "**/dist/",
       "**/flow-typed",
-      "**/docs",
-      "**/*.stories.{js,jsx}"
+      "**/docs"
     ],
     "globals": [
       "jest",
