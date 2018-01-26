@@ -5,7 +5,7 @@ import { colors } from '../../config'
 
 import Wrapper from '../Wrapper'
 
-const Circle = styled.div`
+export const Circle = styled.div`
   @keyframes spin {
     0% {
       transform: rotate(0deg);

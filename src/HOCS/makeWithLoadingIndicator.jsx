@@ -6,7 +6,7 @@ import { branch, renderComponent } from 'recompose'
 import Cube from '../components/Cube'
 import SimpleCircle from '../components/SimpleCircle'
 
-const getSpinner = (spinnerType: string | React.Node): React.Node => {
+export const getSpinner = (spinnerType: string | React.Node): React.Node => {
   switch (spinnerType) {
     case 'Cube':
       return Cube
@@ -17,7 +17,7 @@ const getSpinner = (spinnerType: string | React.Node): React.Node => {
   }
 }
 
-export const makeWithLoadingIndicator = ({
+const makeWithLoadingIndicator = ({
   Container = React.Fragment,
   condition,
   spinnerType = 'SimpleCircle',
@@ -46,3 +46,5 @@ export const makeWithLoadingIndicator = ({
     })
   )
 }
+
+export default makeWithLoadingIndicator
