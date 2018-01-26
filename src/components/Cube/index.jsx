@@ -12,17 +12,19 @@ import SmallBox from './SmallBox'
 
 const Cube = ({
   size = 40,
-  dark = colors.secondary,
-  light = colors.primary
+  innerColor = colors.secondary,
+  outerColor = colors.primary,
+  speed = 1.25
 }: {
   size: number,
-  dark: string,
-  light: string
+  innerColor: string,
+  outerColor: string,
+  speed: number
 }) => (
   <Wrapper>
-    <Loader size={size}>
-      <LargeBox light={light} size={size} />
-      <SmallBox dark={dark} size={size} />
+    <Loader speed={speed} size={size}>
+      <LargeBox outerColor={outerColor} size={size} />
+      <SmallBox innerColor={innerColor} size={size} speed={speed} />
     </Loader>
   </Wrapper>
 )

@@ -8,7 +8,7 @@ const LargeBox = styled.div`
   width: ${props => props.size}px;
   height: ${props => props.size}px;
 
-  background-color: ${props => props.light};
+  background-color: ${props => props.outerColor};
   outline: 1px solid transparent;
 `
 
