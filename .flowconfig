@@ -1,7 +1,7 @@
 [ignore]
 .*/__tests__/.*
 .*/.+\.test.js
-.*/node_modules/.*
+.*/node_modules/config-chain/.*
 
 [include]
 

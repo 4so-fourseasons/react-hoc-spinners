@@ -57,7 +57,7 @@ storiesOf('HOCS/makeWithLoadingIndicator', module)
   .add('Specify custom component as spinner', () => {
     const CustomComponent = (props) => (
       <h1>Custom Component</h1>
-      )
+    )
 
     const WithLoadingIndicator = makeWithLoadingIndicator({
       condition: () => true,
