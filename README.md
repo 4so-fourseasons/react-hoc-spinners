@@ -54,6 +54,65 @@ export default withLoadingIndicator(MyComponent)
 It is also possible to use all provided spinners without a wrapping higher-order component, in case you want to implement all logic yourself. Just use named imports as shown in our API spec.
 
 
+## Development
+
+### Installing / Getting started
+
+To get started run the following command after cloning the project:
+
+`npm i`
+
+This will download and install all the required npm packages.
+
+Then, run:
+
+`npm start` or `npm run storybook`
+
+Both commands start the storybook webpack server, which will be available under [localhost:9001](localhost:9001).
+
+### Built with
+
+The project is built with webpack and mainly based on the following packages:
+
+* webpack, including the dev-server
+* react
+* styled-components
+* storybook
+
+
+For more information about the used packages see the [package.json](package.json) or check the packages' websites.
+
+### File structure
+
+The single components can be found in the `src/components` folder.
+For each component, the following files/folders are required:
+
+* `index.jsx`
+* `README.md`
+* `stories.jsx`
+* `_tests_` folder
+
+If you create a new component, you need to register it in the `src/index.js` file, like so:
+
+```js
+import MyComponent from './components/MyComponent'
+
+// Components
+export { MyComponent }
+
+export default {
+  MyComponent
+}
+```
+
+The story of each component needs to be required in the `loadStories` function inside `.storybook/config.js`:
+
+```js
+const loadStories = () => {
+  require('../src/components/MyComponent/stories.jsx')
+}
+```
+
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning.
